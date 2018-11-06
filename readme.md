@@ -3,20 +3,27 @@
 
 ## What is this?
 
-A clean install of Laravel 5.5 with the [CoreUI Full Bootstrap Admin Template VueJS Version](https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template) added in. This implementation is nowhere near to perfect but it's a working start. Pull Requests are welcome!
+This project is based on Laravel 5.6 and Vue.js. Its a Single Page Application which show how to use Laravel, VueJS, Google Maps and vue table.
 
 
-## What's it look like?
+## Requirements:
 
-[Here's a demo of the CoreUI theme running.](https://coreui.io/demo/)
-
-
-## Getting Started
-
-If your here, you most likely know what Laravel is and hopefully how to get up and running with it. If not, [click here to check the docs on getting up and running](https://laravel.com/docs/5.6/). Also [Laracasts](https://laracasts.com) is a fantastic resource for getting up to speed with everything Laravel from pretty much any version.
+PHP 7.2.x
+Node 10.11.x
 
 
-## Head Up
+[Project demo address](http://imenik.sidzi.com/)
 
-The version of the CoreUI theme that get's installed is not the latest version right now as the author's are re-structuring the repo to just be the free HTML template and then seperating each version (Angular, VueJS, React, etc) into their own repos. At this time the VueJS version has not been released.
-"# imenik" 
+
+## How to install?
+
+1. Clone this project
+2. create database and user
+3. edit .env file and insert db name, username and password
+4. execute composer install 
+5. execute php migrate
+6. execute npm install
+7. configure virtual host
+8. optionally, import imenik.sql 
+
+Then start 'npm run watch' 
